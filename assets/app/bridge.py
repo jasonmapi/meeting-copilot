@@ -214,7 +214,7 @@ class Handler(BaseHTTPRequestHandler):
         if self.path=='/api/health':
             marker=ROOT/'install-manifest.json'
             data=json.loads(marker.read_text(encoding='utf-8')) if marker.exists() else {}
-            self.send({'app':'enterprise-ai-fieldwork','version':'1.0.1','instance_id':data.get('instance_id')})
+            self.send({'app':'enterprise-ai-fieldwork','version':'1.0.2','instance_id':data.get('instance_id')})
         elif self.path=='/api/state':
             with LOCK:self.send(dict(STATE,config=public_config(),recorder=recorder_state(),brief=brief_info(),asr=asr_settings()))
         elif self.path.startswith('/materials/'):

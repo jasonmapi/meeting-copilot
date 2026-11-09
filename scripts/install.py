@@ -33,6 +33,11 @@ def main():
   if dst.exists():
    old=backup/rel;old.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(dst,old)
   dst.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(src,dst)
+ for name in ('LICENSE','NOTICE','LICENSING.md','CONTRIBUTING.md'):
+  dst=target/name
+  if dst.exists():
+   backup.mkdir(parents=True,exist_ok=True);shutil.copy2(dst,backup/name)
+  shutil.copy2(SKILL/name,dst)
  for name in ('results','transcripts','models','research/current'):(target/name).mkdir(parents=True,exist_ok=True)
  config=target/'analysis-config.json'
  if not config.exists():shutil.copy2(target/'analysis-config.example.json',config)
@@ -42,7 +47,7 @@ def main():
  if not asr.exists():asr.write_text(json.dumps({'device':a.device,'model_name':a.model,'model_path':'models/'+a.model,'language':language,'cpu_threads':4,'chunk_seconds':5 if a.device=='cuda' or a.model=='small' else 12,'input_device':None},ensure_ascii=False,indent=2),encoding='utf-8')
  selected=json.loads(asr.read_text(encoding='utf-8'))
  if selected['model_name']!=a.model or selected['device']!=a.device:raise SystemExit('Existing asr-config preserved. Re-run using matching --model / --device; change config intentionally if needed.')
- marker.write_text(json.dumps({'app':'enterprise-ai-fieldwork','version':'1.0.1','instance_id':prior.get('instance_id',uuid.uuid4().hex),'created':prior.get('created',stamp),'updated':stamp,'device':a.device,'os':platform.system(),'python':sys.version.split()[0]},indent=2),encoding='utf-8')
+ marker.write_text(json.dumps({'app':'enterprise-ai-fieldwork','version':'1.0.2','instance_id':prior.get('instance_id',uuid.uuid4().hex),'created':prior.get('created',stamp),'updated':stamp,'device':a.device,'os':platform.system(),'python':sys.version.split()[0]},indent=2),encoding='utf-8')
  env=target/'.venv';py=env/('Scripts/python.exe' if os.name=='nt' else 'bin/python')
  if not py.exists():venv.EnvBuilder(with_pip=True).create(env)
  if not a.skip_deps:

@@ -2,14 +2,14 @@
 name: enterprise-ai-fieldwork-deploy
 description: 在Windows或macOS本机安装企业AI培训售前工作台，联通背景尽调、报告导入、麦克风转写、模型实时辅导、成果墙和待核实问题；用于新设备部署、迁移与验收。
 metadata:
-  version: "1.0.1"
+  version: "1.0.2"
 ---
 
 # MeetingCopilot｜商谈智囊：本机部署
 
 交付目标：另一台联网、能运行本地命令的Agent，携带本目录即可安装独立工作台；用户在本机填写兼容Chat Completions的模型API后，可开展企业研究和现场访谈。目标平台是Windows和**macOS**，不是iPhone/iPad的iOS。本包不含API密钥、客户录音或既有访谈成果。
 
-许可：本包原创内容使用 [PolyForm Noncommercial 1.0.0](LICENSE)，商业用途须另获授权；第三方依赖及模型遵循各自许可。
+许可：本包原创内容使用 [MeetingCopilot 非商业与源码共享许可证 1.0](LICENSE)。商业用途须另获授权；对外分发修改版或提供修改版网络服务时须向接收者/用户提供对应源码，鼓励但不强制提交 PR。第三方依赖及模型遵循各自许可，详见 [许可说明](LICENSING.md)。
 
 ## 按任务执行
 

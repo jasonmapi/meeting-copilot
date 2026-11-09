@@ -1,131 +1,63 @@
-# PolyForm Noncommercial License 1.0.0
+# MeetingCopilot 非商业与源码共享许可证 1.0
 
-<https://polyformproject.org/licenses/noncommercial/1.0.0>
+标识：LicenseRef-MeetingCopilot-NC-Source-1.0
+发布日：2026-11-09
+本许可证以中文文本为准。这是一份自定义源码可见许可证，不是标准开源许可证。
 
-## Acceptance
+## 1. 适用范围与定义
 
-In order to get any license under these terms, you must agree
-to them as both strict obligations and conditions to all
-your licenses.
+“本作品”指附带本许可证发布的 MeetingCopilot 原创代码、Skill、文档和素材，以及其中受著作权保护的修改和衍生部分。“许可人”指对相关内容有权授予许可的权利人；初始项目维护账号为 https://github.com/jasonmapi 。第三方组件、模型及其许可证另行适用。
 
-## Copyright License
+“修改版”包括对本作品的修改、翻译、移植及依法构成其衍生作品的内容；仅通过通用接口与之交互的独立程序，不因此自动成为本作品。“对外分发”指向你本人或同一法律实体之外的个人或实体提供本作品副本，包括源码、可执行文件、容器和安装包。“在线服务”指允许其他用户通过网络与运行中的本作品交互，包括网站、API和远程工作台。
 
-The licensor grants you a copyright license for the
-software to do everything you might do with the software
-that would otherwise infringe the licensor's copyright
-in it for any permitted purpose.  However, you may
-only distribute the software according to [Distribution
-License](#distribution-license) and make changes or new works
-based on the software according to [Changes and New Works
-License](#changes-and-new-works-license).
+“对应源码”是用于修改该实际版本的首选可编辑形式，包含该版本全部受本许可证约束的源码与修改、必要的构建和安装脚本、依赖名称及版本、运行说明和不含秘密的配置示例，使接收者能够合理重建和运行该版本。不得仅提供旧版源码、截图、不可编辑产物或不完整补丁代替；补丁只有在所需准确基线也同时可获取且足以重建时才可采用。
 
-## Distribution License
+## 2. 授权与非商业限制
 
-The licensor grants you an additional copyright license
-to distribute copies of the software.  Your license
-to distribute covers distributing the software with
-changes and new works permitted by [Changes and New Works
-License](#changes-and-new-works-license).
+在持续遵守本许可证的前提下，许可人授予你非独占、全球、免许可费的权利，为获准目的使用、复制、修改及分发本作品。获准目的为非商业目的，即并非以直接或间接商业利益、商业报酬或预期商业应用为主要目标的使用。
 
-## Notices
+未经相关权利人另行书面授权，不得将本作品用于商业业务中的售前或销售辅助、收费咨询或培训、收费部署或托管、商业产品集成、付费服务，或其他以商业获利为目的的活动。免费提供并不当然构成非商业用途，例如以获客或广告收益为主要目标的服务仍可能属于商业用途。提供源码也不等于获得商用许可。
 
-You must ensure that anyone who gets a copy of any part of
-the software from you also gets a copy of these terms or the
-URL for them above, as well as copies of any plain-text lines
-beginning with `Required Notice:` that the licensor provided
-with the software.  For example:
+公益慈善组织、教育机构、公共研究机构、公共安全或公共卫生机构、环保组织及政府机构为其自身机构活动使用本作品，属于获准目的，不因其资金来源或相应资助义务而排除；这一例外不自动授予商业供应商收费部署、销售或托管本作品的权利。此类获准使用仍须遵守下列源码提供义务。
 
-> Required Notice: Copyright Yoyodyne, Inc. (http://example.com)
+## 3. 分发条件
 
-## Changes and New Works License
+对外分发本作品时，必须随附本许可证与适用的版权声明，保留第三方声明；对修改版标明修改者、日期或版本及主要改动，不得使他人误认为你的修改获得原作者认可。
 
-The licensor grants you an additional copyright license to
-make changes and new works based on the software for any
-permitted purpose.
+对外分发修改版时，必须在交付同时向全部接收者免费提供该修改版的对应源码，或提供清晰、可直接获取该对应源码的下载地址。采用下载地址时，至少在持续分发期间及最后一次分发后的三年内维持可获取性；若不能维持，应在交付时直接附带完整对应源码。
 
-## Patent License
+受本许可证约束的修改和衍生部分，必须按本许可证同一版本向下游提供。不得用保密协议、附加收费或其他条款剥夺下游依本许可证使用、修改、获取源码及再分发的权利。依法独立的第三方内容仍依其自身许可。
 
-The licensor grants you a patent license for the software that
-covers patent claims the licensor can license, or becomes able
-to license, that you would infringe by using the software.
+## 4. 修改版在线服务的源码提供
 
-## Noncommercial Purposes
+运行修改版并让其他用户通过网络交互时，无论是否向其分发程序副本，都必须在界面或接口文档的显著位置提供“对应源码”入口，让所有此类用户在服务运行期间免费取得与所用版本相匹配的对应源码，并使其可按本许可证使用、修改和分发。
 
-Any noncommercial purpose is a permitted purpose.
+允许用服务已有的用户身份验证控制源码入口，但不得另收费用、另行审批或要求额外保密承诺。每次部署不同修改版时，应同步提供对应版本的源码。仅链接到未包含你的修改的上游仓库不满足本条。
 
-## Personal Uses
+同一实体内部的修改版网络服务也适用本条，源码应提供给实际交互用户；不要求因此向所有互联网公众发布。个人本机自用、未分发且未向其他用户提供网络交互的修改，不触发第3、4条的源码提供义务，但仍须符合非商业限制。
 
-Personal use for research, experiment, and testing for
-the benefit of public knowledge, personal study, private
-entertainment, hobby projects, amateur pursuits, or religious
-observance, without any anticipated commercial application,
-is use for a permitted purpose.
+## 5. 数据与第三方边界
 
-## Noncommercial Organizations
+对应源码不包括 API 密钥、密码、私钥、访问令牌、客户资料、录音、转写、个人信息、生产数据库及其他不构成本作品源码的业务数据。应提供占位符、脱敏示例和配置步骤代替秘密信息。不得借“业务数据”之名排除本作品中的实际程序修改。
 
-Use by any charitable organization, educational institution,
-public research organization, public safety or health
-organization, environmental protection organization,
-or government institution is use for a permitted purpose
-regardless of the source of funding or obligations resulting
-from the funding.
+无需重新分发可独立取得的通用操作系统、编译器、标准工具、第三方依赖或模型权重，但须说明相关版本、来源和获取方法；其原许可证有额外义务的，仍须遵守。本许可证不授予你无权分发的第三方内容的权利。
 
-## Fair Use
+## 6. 回馈、权利保留与另行授权
 
-You may have "fair use" rights for the software under the
-law. These terms do not limit them.
+鼓励通过 https://github.com/jasonmapi/meeting-copilot 提交 Pull Request 回馈改进，但这不是获得或保持本许可的条件。你可以自行托管对应源码，不必提交到原仓库，也不必等待维护者接受或合并。
 
-## No Other Rights
+修改者保留其新增原创内容的著作权。本许可证不要求转让著作权，不授予项目名称、商标或背书使用权。各权利人可以对其有权许可的内容另行给予书面商业授权；维护者不能仅凭接受贡献就代表贡献者授予超出本许可的权利。单独授权的范围以其书面约定为准。
 
-These terms do not allow you to sublicense or transfer any of
-your licenses to anyone else, or prevent the licensor from
-granting licenses to anyone else.  These terms do not imply
-any other licenses.
+## 7. 违规与恢复
 
-## Patent Defense
+违反本许可证时，相关授权自动终止，应停止未经授权的使用和分发。首次收到权利人书面违规通知后，若在30日内完全纠正并采取合理措施补救既往违规，授权恢复；其他情形需相关权利人书面同意恢复。恢复不自动免除已发生的责任。下游已取得且持续合规的许可不因上游违规而自动终止。
 
-If you make any written claim that the software infringes or
-contributes to infringement of any patent, your patent license
-for the software granted under these terms ends immediately. If
-your company makes such a claim, your patent license ends
-immediately for work on behalf of your company.
+## 8. 免责与法定权利
 
-## Violations
+在适用法律允许的最大范围内，本作品按现状提供，不作适销性、特定用途适用性、准确性或不侵权保证；许可人不对因使用或无法使用本作品产生的损失承担责任，但法律不得排除的责任除外。不得以本作品的建议替代必要的人工核实。
 
-The first time you are notified in writing that you have
-violated any of these terms, or done anything with the software
-not covered by your licenses, your licenses can nonetheless
-continue if you come into full compliance with these terms,
-and take practical steps to correct past violations, within
-32 days of receiving notice.  Otherwise, all your licenses
-end immediately.
+本许可证不限制法律赋予且无需许可即可行使的权利。个别条款无效不当然使其他条款无效。
 
-## No Liability
+## 9. 版本适用
 
-***As far as the law allows, the software comes as is, without
-any warranty or condition, and the licensor will not be liable
-to you for any damages arising out of these terms or the use
-or nature of the software, under any kind of legal claim.***
-
-## Definitions
-
-The **licensor** is the individual or entity offering these
-terms, and the **software** is the software the licensor makes
-available under these terms.
-
-**You** refers to the individual or entity agreeing to these
-terms.
-
-**Your company** is any legal entity, sole proprietorship,
-or other kind of organization that you work for, plus all
-organizations that have control over, are under the control of,
-or are under common control with that organization.  **Control**
-means ownership of substantially all the assets of an entity,
-or the power to direct its management and policies by vote,
-contract, or otherwise.  Control can be direct or indirect.
-
-**Your licenses** are all the licenses granted to you for the
-software under these terms.
-
-**Use** means anything you do with the software requiring one
-of your licenses.
+本许可证适用于明确附带它发布的版本，不追溯改变先前按其他许可证取得的副本，也不自动授权改用未来版本。本项目从软件版本 v1.0.2 起采用本许可证；较早版本按其随附许可处理。后续版本中仍可独立按旧许可取得的既有内容，其旧许可权利不因本文件而被撤回。

@@ -1,16 +1,18 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "files": {
     ".gitattributes": "23302dd90b8bb74b44d365fafef8df20f809b61cb347023951ecf60a88a29651",
     ".gitignore": "c507f26d166261c044f8f9f7e2a6f5242b9ebb2701ca34e07c463f8dfc539fda",
-    "LICENSE": "ffcca38841adb694b6f380647e15f17c446a4d1656fed51a1e2041d064c94cc8",
-    "NOTICE": "26edaf8f3947ddd2b4e673277196cc05b02bd62041ecfa98a9efd5647444422f",
-    "README.md": "44e634acdf1f246dc73d2e6df7eac64a4634ddd2d229a568dabb3ebb608ccf0e",
-    "SKILL.md": "ef5113cdcf2c189191e0cb9f28efc2ce7b4b886240d275a5646c49fcdb07a13e",
+    "CONTRIBUTING.md": "68883ca5941d84450a71d34e0124014d8ba84e0f69c7719741b93e18738d0f05",
+    "LICENSE": "a017b28d1692e309e85742805c15a57e48939d5d47df59d1d974b1f2cb19cd98",
+    "LICENSING.md": "666e82e3c60beaf308f524fc07ab179e0dff8c242e0a09bbe963c5f2d3aba8a0",
+    "NOTICE": "1207ff72e8ac2813a5293f139bfc37ead07e7c1017acde0de0b592f56da115cc",
+    "README.md": "b82e8ba45f3c20071f2dcb296a6e47a94dc930afe55f3249ed25cd552f7f4c10",
+    "SKILL.md": "7fb997d6bf5a2b215dd2462a4669aa130c8d350bf8c3f61fce7869b482843839",
     "agents/openai.yaml": "7995bce7a6588ac2a468d308581ec3887a897bbaa2e69e30d88d99c14528ed6f",
     "assets/app/analysis-config.example.json": "c0c1178b68a5c2f431520596e1edde46a1d5b3801eb8deb8c931397d240b4afc",
     "assets/app/asr_runtime.py": "e047c2ea9526a60aafb0a02976b32a5057d06ceb8af77a096bb81cac728fd7c5",
-    "assets/app/bridge.py": "3f1c8f33c20d28e23a42ce57587c446e536b5642feb469f84275ace6d1a63e1c",
+    "assets/app/bridge.py": "18598b036b219cefaa9100fe4b6f336243f9a0e49fc000103fedc08dbaf99b84",
     "assets/app/doctor.py": "0d5cb8f97b627383314cb377504f370ffaf3a0c0d395766c8f7c17e8c6f8e252",
     "assets/app/index.html": "35b6c8cf3bec3952154ced54e89863514986903ddb03ccacf3f6c24fbb8d53fe",
     "assets/app/materials/ai-opportunity-map.html": "968650600485fc6af1d3b367c84ea90bd58f13ca95f089f2a42fe35782600ca5",
@@ -47,7 +49,7 @@
     "references/research-skill/scripts/validate_report.py": "ea40e4c4e17e2fb1212873730cba92f65027e5200c46a9a5a3e2e11ea57209fb",
     "references/validation.md": "29473fbb6738cb3d5a3bc9be04076078a115b9241934330a22c528dd33247b31",
     "scripts/import_company.py": "0c6f99ceeb99cbe4ce89d746ee33fd6a74f0eea01fc19d8fdf97801623441f6e",
-    "scripts/install.py": "d824bee0a161c825f8778bbd383f63ac99de35c9c4d95d6f0172775a36967cf5",
+    "scripts/install.py": "ed2325882b39aa5012cf90d991e0f3c6c7438a810dc445bc3e0b6593eda0548f",
     "scripts/smoke_test.py": "6aa81ea355c0d2b80dd97e1d629856f8f851d248cf3ef7e557d0a5a883ae5eca",
     "scripts/verify_package.py": "b4dc54b2227f0cddf335a92f9b948f2724bc4824f22ecf6adf5e81471fc1a5aa"
   }
