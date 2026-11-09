@@ -1,0 +1,4 @@
+interface:
+  display_name: "企业AI尽调与现场助手部署"
+  short_description: "在Windows或Mac部署企业尽调、语音转写、实时辅导和成果核实全流程"
+  default_prompt: "使用 $enterprise-ai-fieldwork-deploy 在本机安装企业AI尽调与现场助手，配置模型API并完成验收。"

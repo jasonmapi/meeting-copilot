@@ -1,0 +1,6 @@
+faster-whisper==1.2.1
+sounddevice==0.5.6
+psutil>=6,<8
+numpy>=1.26,<3
+scipy>=1.11,<2
+Markdown>=3.6,<4

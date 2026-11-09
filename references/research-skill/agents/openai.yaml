@@ -1,0 +1,6 @@
+interface:
+  display_name: "企业AI落地售前尽调"
+  short_description: "核验企业公开信息，识别AI培训与落地机会，形成访谈和试点方案"
+  default_prompt: "请使用 $enterprise-ai-presales-research 为目标企业开展公开尽调与AI落地售前研究，区分事实、推断和待确认事项。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,190 @@
+{
+  "company": "待指定企业",
+  "version": "2026-11-09",
+  "questions": [
+    {
+      "id": "generic-subject",
+      "priority": "P0",
+      "group": "主体与业务",
+      "question": "本次对接和拟签约的企业主体、拜访地址是什么？",
+      "criterion": "明确企业全称与当前地址；候选工商代码如涉及需客户核对。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-objective",
+      "priority": "P0",
+      "group": "目标与价值",
+      "question": "本次希望员工提效、减少错误，还是产品中的AI？",
+      "criterion": "明确本次方向和期望达成的业务结果。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-task",
+      "priority": "P0",
+      "group": "流程与工作量",
+      "question": "能否走一遍最近一次最耗时任务：谁输入、谁处理、谁审核、交给谁？",
+      "criterion": "一个具体任务及四个环节角色齐全。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-volume",
+      "priority": "P0",
+      "group": "流程与工作量",
+      "question": "该任务每月多少次、每次耗时多久？数字是估计还是统计？",
+      "criterion": "任务量、单次耗时和数字口径齐全。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-pain",
+      "priority": "P0",
+      "group": "流程与工作量",
+      "question": "主要瓶颈和返工发生在哪里？",
+      "criterion": "明确瓶颈或返工环节，并有具体例子或明确没有返工。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-samples",
+      "priority": "P0",
+      "group": "数据与权限",
+      "question": "能否提供获授权的脱敏输入、输出样本？谁批准？",
+      "criterion": "明确能否提供、样本类型及授权批准角色；只说有数据不够。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-boundary",
+      "priority": "P0",
+      "group": "数据与权限",
+      "question": "哪些资料不能外发？有何本地部署或安全限制？",
+      "criterion": "明确外发边界及部署限制，明确无限制也算回答。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-roles",
+      "priority": "P0",
+      "group": "负责人",
+      "question": "谁使用、复核、维护资料、批准预算及验收？",
+      "criterion": "五项职责均有明确责任角色或明确兼任关系。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-availability",
+      "priority": "P0",
+      "group": "负责人",
+      "question": "项目负责人及经办人每周能投入多少时间？",
+      "criterion": "明确负责人角色与可投入时间。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-errors",
+      "priority": "P0",
+      "group": "验收与风险",
+      "question": "哪些错误绝不能发生？出错如何撤回、由谁放行？",
+      "criterion": "不可接受错误、回退处理及放行责任明确。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-products",
+      "priority": "P1",
+      "group": "主体与业务",
+      "question": "当前主要产品、客户行业、标准/定制比例和交付方式是什么？",
+      "criterion": "当前产品、客户行业、标准定制结构、交付方式齐全。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-search",
+      "priority": "P1",
+      "group": "候选场景",
+      "question": "找资料是否耗时？现有搜索能解决多少问题？",
+      "criterion": "说明找资料实际问题及现有搜索效果，明确没有问题亦可。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-versions",
+      "priority": "P1",
+      "group": "数据与权限",
+      "question": "同型号版本、过期资料撤销和访问权限如何管理？",
+      "criterion": "版本、撤销、权限三项机制明确。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-testing",
+      "priority": "P1",
+      "group": "候选场景",
+      "question": "测试数据如何采集，报告是否已有自动模板？",
+      "criterion": "数据采集方式及报告自动化现状明确。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-requirements",
+      "priority": "P1",
+      "group": "候选场景",
+      "question": "客户需求有哪些关键字段？最近一次反复澄清或返工为何发生？",
+      "criterion": "关键字段及一个往返/返工实例，或明确无此类问题。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-systems",
+      "priority": "P1",
+      "group": "系统现状",
+      "question": "使用哪些ERP/MES/PLM/CRM或文件系统？能否只读导出？",
+      "criterion": "系统清单（或明确没有）及导出/接口可用性。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-acceptance",
+      "priority": "P1",
+      "group": "验收与风险",
+      "question": "怎样算试点成功？谁提供正确答案和独立验收样本？",
+      "criterion": "可执行验收标准、答案责任人及独立样本条件。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-ai",
+      "priority": "P1",
+      "group": "系统现状",
+      "question": "员工目前如何使用AI？工具、水平、培训时间和禁用内容是什么？",
+      "criterion": "现有使用情况及培训/禁用边界，未使用可明确记录。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-budget",
+      "priority": "P1",
+      "group": "预算与计划",
+      "question": "预算范围、审批条件和采购周期是什么？",
+      "criterion": "金额或明确未定、预算审批条件及采购周期；提问中的数字不算。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-deadline",
+      "priority": "P1",
+      "group": "预算与计划",
+      "question": "希望何时完成什么目标，下一次决策日期是什么？",
+      "criterion": "目标里程碑、明确日期口径及下一次决策安排。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-qualification",
+      "priority": "P1",
+      "group": "主体与业务",
+      "question": "如需对外引用资质，能否提供当前有效证书与查询信息？",
+      "criterion": "明确证书有效范围及验证材料；仅提及历史名单至多部分回答。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-product_ai",
+      "priority": "P2",
+      "group": "条件分支",
+      "question": "若涉及产品AI，目前处于研究、原型、样机还是量产阶段？",
+      "criterion": "客户明确产品AI阶段，或明确本次不涉及产品AI；未谈及不能自动视为不涉及。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    },
+    {
+      "id": "generic-next",
+      "priority": "P0",
+      "group": "会后行动",
+      "question": "会后选哪个任务，谁补资料、谁验收、何时再决定？",
+      "criterion": "候选任务、补证与验收责任、下一次决策时间均明确。",
+      "source": "通用企业AI访谈框架；导入目标企业时替换"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+analysis-config.json
+asr-config.json
+models/
+transcripts/
+results/
+*.log
+.DS_Store
